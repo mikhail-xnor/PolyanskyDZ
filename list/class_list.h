@@ -39,8 +39,8 @@ public:
 	ValueType pop_back();
 	ValueType pop_front();
 	
-	ValueType back(); 
-	iterator find(ValueType select); //if not found return null ptr
+	ValueType& back(); 
+	iterator find(const ValueType& select); //if not found return null ptr
 	
 	
 	const_iterator begin() const;

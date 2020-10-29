@@ -67,6 +67,7 @@ DATE StringToDate(std::string Data)
 	Date.Day = atoi(Data.substr(0, Data.find_first_of('.')).c_str());
 	Data.erase(0, Data.find_first_of('.') + 1);
 	Date.Month = atoi(Data.substr(0, Data.find_first_of('.')).c_str());
+	Data.erase(0, Data.find_first_of('.') + 1);
 	Date.Year = atoi(Data.c_str());
 	return Date;
 }
@@ -99,21 +100,21 @@ void sort(list<NOTE>& Notebook, int SelectedMode)
 	switch (SelectedMode)
 	{
 	case 1:
-		for (list<NOTE>::const_iterator it1 = Notebook.begin(); it1 != Notebook.end(); ++it1)
+		for (list<NOTE>::const_iterator it1 = Notebook.begin(); ++it1 != Notebook.end();)
 			for (list<NOTE>::const_iterator it2 = it1; it2 != Notebook.end(); ++it2)
-				if ((*(it2)).Initials.ToString() < (*(++it2)).Initials.ToString())
+				if ((*(--it2)).Initials.ToString() < (*(it2)).Initials.ToString())
 					std::swap(it1, it2);
 		break;
 	case 2:
-		for (list<NOTE>::const_iterator it1 = Notebook.begin(); it1 != Notebook.end(); ++it1)
+		for (list<NOTE>::const_iterator it1 = Notebook.begin(); ++it1 != Notebook.end();)
 			for (list<NOTE>::const_iterator it2 = it1; it2 != Notebook.end(); ++it2)
-				if ((*(it2)).BirthdayDate < (*(++it2)).BirthdayDate)
+				if ((*(--it2)).BirthdayDate < (*(it2)).BirthdayDate)
 					std::swap(it1, it2);
 		break;
 	case 3:
-		for (list<NOTE>::const_iterator it1 = Notebook.begin(); it1 != Notebook.end(); ++it1)
+		for (list<NOTE>::const_iterator it1 = Notebook.begin(); ++it1 != Notebook.end();)
 			for (list<NOTE>::const_iterator it2 = it1; it2 != Notebook.end(); ++it2)
-				if ((*(it2)).PhoneNumber < (*(++it2)).PhoneNumber)
+				if ((*(--it2)).PhoneNumber < (*(it2)).PhoneNumber)
 					std::swap(it1, it2);
 		break;
 	}
@@ -130,7 +131,7 @@ int main()
 		for (list<NOTE>::const_iterator it = Notebook.begin(); it != Notebook.end(); ++it)
 			std::cout << '\n' + NOTEToString(*it) + '\n';
 		std::cout << "¬ведите 1, чтобы добавить запись;\n¬ведите 2, чтобы удалить запись;\n¬ведите 3, чтобы отсортировать записи по полю;\n¬ведите 0, чтобы выйти:\n";
-		std::cin.ignore('\n');
+		//std::cin.ignore('\n');
 		std::cin >> SelectedMode;
 		switch (SelectedMode)
 		{
@@ -157,7 +158,7 @@ int main()
 			std::cin >> Data;
 			Note.BirthdayDate = StringToDate(Data);
 			list<NOTE>::iterator it = Notebook.find(Note);
-			if (it == nullptr) //?????
+			if (it != nullptr) //?????
 				Notebook.erase(it);
 			break;
 		}

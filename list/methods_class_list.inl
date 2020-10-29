@@ -126,7 +126,7 @@ inline ValueType list<ValueType>::pop_front()
 }
 
 template<class ValueType>
-inline ValueType list<ValueType>::back()
+inline ValueType& list<ValueType>::back()
 {
 	if (empty())
 		throw std::exception("Out of range!");
@@ -134,7 +134,7 @@ inline ValueType list<ValueType>::back()
 }
 
 template<class ValueType>
-inline typename iterator<ValueType> list<ValueType>::find(ValueType select)
+inline typename iterator<ValueType> list<ValueType>::find(const ValueType& select)
 {
 	for (list<ValueType>::iterator it = begin(); it != end(); ++it)
 		if (*it == select)
