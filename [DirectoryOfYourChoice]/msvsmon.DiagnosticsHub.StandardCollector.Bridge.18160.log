@@ -1,0 +1,68 @@
+============= Diagnostics Hub Log =============
+
+Debug --- StandardCollector.Bridge.cpp --- Querying VS for Performance Debugger status
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '14'
+Debug --- StandardCollector.Bridge.cpp --- Performance Debugger status: create new session
+Info --- StandardCollector.Bridge.cpp --- Creating collection session for performance debugging.
+Debug --- CollectionSession.cpp --- Creating collection service for scenario '0' from location '0'
+Debug --- CollectionSession.cpp --- Created collection session '{AFD4E230-78B7-41AB-8061-8EAEEA8E982C}'
+Info --- CollectionSession.cpp --- Started collection session (Performance Debugger)
+Debug --- TargetProcessMonitor.cpp --- Registered process exit handler for process ID: 33928
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 18446744073709551615, Timestamp: 1684518789068
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684518789068, Exit Timestamp: 1684518877297
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684518898181, Timestamp: 1684518898181
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684518898181, Exit Timestamp: 1684519580858
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519583172, Timestamp: 1684519583172
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519583172, Exit Timestamp: 1684519591569
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519596656, Timestamp: 1684519596656
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519596656, Exit Timestamp: 1684519618620
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519621336, Timestamp: 1684519621336
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519621336, Exit Timestamp: 1684519625242
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519633524, Timestamp: 1684519633524
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519633524, Exit Timestamp: 1684519643805
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519648925, Timestamp: 1684519648925
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519648925, Exit Timestamp: 1684519658865
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519673372, Timestamp: 1684519673372
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519673372, Exit Timestamp: 1684519684330
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519700781, Timestamp: 1684519700781
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519700781, Exit Timestamp: 1684519706831
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519714346, Timestamp: 1684519714346
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519714346, Exit Timestamp: 1684519726193
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519734397, Timestamp: 1684519734397
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519734397, Exit Timestamp: 1684519746662
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519754622, Timestamp: 1684519754622
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519754622, Exit Timestamp: 1684519768330
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519777673, Timestamp: 1684519777673
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519777673, Exit Timestamp: 1684519788760
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519797025, Timestamp: 1684519797025
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519797025, Exit Timestamp: 1684519841252
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519843592, Timestamp: 1684519843592
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519843592, Exit Timestamp: 1684519846545
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519847869, Timestamp: 1684519847869
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519847869, Exit Timestamp: 1684519849034
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519860228, Timestamp: 1684519860228
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519860228, Exit Timestamp: 1684519868562
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519875782, Timestamp: 1684519875782
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519875782, Exit Timestamp: 1684519877983
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684519886248, Timestamp: 1684519886248
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684519886248, Exit Timestamp: 1684521965905
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684522155485, Timestamp: 1684522155485
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684522155485, Exit Timestamp: 1684522166993
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684522172427, Timestamp: 1684522172427
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684522172427, Exit Timestamp: 1684522307277
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '20'
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684529816774, Timestamp: 1684529816774
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684529816774, Exit Timestamp: 1684529832781
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684529835908, Timestamp: 1684529835908
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684529835908, Exit Timestamp: 1684529845573
+Debug --- CollectionSession.cpp --- Enter break: Process ID: 33928, Event ID: 1684529851401, Timestamp: 1684529851401
+Debug --- CollectionSession.cpp --- Exit break: Process ID: 33928, Enter Timestamp: 1684529851401, Exit Timestamp: 1684529869351
+Info --- TargetProcessMonitor.cpp --- Targeted process (PID: 33928) has exited
+Debug --- TargetProcessMonitor.cpp --- Unregistered process exit handler for process ID: 33928
+Debug --- TargetProcessMonitor.cpp --- Session has no remaining target processes
+Debug --- StandardCollector.Bridge.cpp --- Notifying client that there are no remaining target processes.
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '11'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '12'
+Debug --- StandardCollector.Bridge.cpp --- Received custom message '13'
+Debug --- CollectionSession.cpp --- Requesting destroy on collection session '{AFD4E230-78B7-41AB-8061-8EAEEA8E982C}'.
+Debug --- CollectionSession.cpp --- Creating collection service for scenario '1' from location '1'

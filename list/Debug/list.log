@@ -1,0 +1,6 @@
+﻿  main.cpp
+  methods_class_list.inl
+  Создание кода...
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall list<int>::list<int>(void)" (??0?$list@H@@QAE@XZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall list<int>::~list<int>(void)" (??1?$list@H@@QAE@XZ) в функции _main
+D:\bmstu_studing\Лабы\list\Debug\list.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
